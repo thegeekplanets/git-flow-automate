@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Basic JS</title>
+  </head>
+  <body>
+    <h1 class="text-center">Hello Mr.Geek, Welcome to the Geek Space world</h1>
+
+    <center>
+      <h2>JavaScript Calculator</h2>
+      <!-- <form> -->
+      <div>
+        <table>
+          <tr>
+            <td>
+              <label for="value1" style="font-weight: bold">
+                Enter First Value:
+              </label>
+            </td>
+            <td><input id="value1" type="number" value="1" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="value2" style="font-weight: bold">
+                Enter Second Value:
+              </label>
+            </td>
+            <td><input id="value2" type="number" value="1" /></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <ul style="list-style: none; display: inline-flex; padding: initial">
+          <li><button onclick="onAddClick()">Add</button></li>
+          <li><button onclick="onSubtractClick()">Subtract</button></li>
+          <li><button onclick="onMultiplyClick()">Multiply</button></li>
+          <li><button onclick="onDivideClick()">Divide</button></li>
+          <li><button onclick="onClearClick()">Clear</button></li>
+        </ul>
+      </div>
+      <div id="error" style="color: red"></div>
+      <div id="result"></div>
+      <!-- </form> -->
+    </center>
+  </body>
+</html>
